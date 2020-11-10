@@ -242,7 +242,8 @@ h1 {
     color: gray;
 }
 
-#propositions-and-demands h1 {
+#propositions-and-demands div {
+    text-align: center;
     margin: 3%;
     background: beige;
     flex-grow: 1;
@@ -251,11 +252,11 @@ h1 {
     font-weight: 800;
 }
 
-#propositions-and-demands h1:hover nav {
+#propositions-and-demands div:hover nav {
     transform: scaleY(1);
 }
 
-#propositions-and-demands h1:hover .arrow {
+#propositions-and-demands div:hover .arrow {
     transform: rotate(90deg);
 }
 
